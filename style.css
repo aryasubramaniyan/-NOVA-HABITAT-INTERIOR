@@ -1,0 +1,171 @@
+/* <!-- header section --> */
+.header{
+    background-color: blanchedalmond;
+}
+/* banner section */
+
+  /* background-image: url();
+  background-size: cover; */
+  /* height: 900px; */
+  
+  /* section body */
+
+/* .imgo{
+    height: 300px;
+    width: 200px;
+} */
+ .one{
+  height: 100%;
+ }
+ .sec2{
+  padding: 30px 0px;
+ }
+ .inbox{
+    /* background-color: aquamarine; */
+    height: 200px;
+    margin: 25px;
+    border-style:groove;
+    border-width: 8px;
+  
+  
+    
+ }
+ .inbox1{
+  /* background-color: cadetblue; */
+  /* height: 200px; */
+  margin: 15px;
+ }
+ .in{
+  text-align: center;
+   margin-top: 30%;
+   font-size: 50px;
+ }
+ wel.we{
+ text-align: center;
+ }
+ #pr{
+  text-align: center;
+ }
+ /* secrivces section */
+ 
+ 
+ #ou{
+  text-align: center;
+
+ }
+.box1{
+  /* background-color: rgb(233, 223, 210); */
+  width: 50%;
+  height: 40%;
+  /* text-align: center; */
+  margin: 15px;
+  /* border-style: solid;
+ border-color: rgb(0, 0, 0); */
+ padding: 5px;
+}
+.inbox3{
+  /* background-color: aqua; */
+  min-height: 300px;
+  margin-top: 50px;
+  /* border-style: solid;
+  border-color: rgb(215, 190, 190); */
+}
+.boxs{
+  /* background-color:rgb(216, 204, 189) ; */
+  width: 40%;
+  min-height: 40px;
+  margin: 10px;
+  padding: 5px;
+
+}
+/* call section */
+.indbox{
+margin-top: 5%;
+text-align: right;
+}
+#sec3{
+  margin-top: 50px;
+  background-image: url(black.webp)
+  
+}
+/* <!-- icon section --> */
+   .indboxs{
+   margin-top: 20px;
+   float: left;
+   }
+   .indboxs1{
+    margin: 12px;
+     
+   }
+  
+  .purecounter{
+    font-size: 20px;
+  }
+  
+ @media (max-width:768px){
+          .inbox2{
+            margin-top: 20px;
+          }
+    
+      }
+        /* body {
+      background: #ffffff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px; */
+      /* color: #fff; */
+      /* margin: 0;
+      padding: 0;
+    } */
+
+    /* .swiper {
+      width: 100%;
+      height: 100%;
+    } */
+
+    /* .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #7e7c7c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height:300px;
+      border-radius: 50px;
+      border-color: rgb(236, 166, 61);
+    border-style: solid;
+    } */
+
+    /* .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .box0{
+      height: 200PX;
+      
+    }
+    .pic{
+      border-radius: 40px;
+      } */
+    .pic {
+        width: 100%;
+        height: 250px; /* Mobile-il height adjust cheyyan */
+        object-fit: cover; /* Image valinju povaathirikkaan */
+        border-radius: 10px;
+    }
+
+    .box0 {
+        background: #f9f9f9;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-bottom: 30px; /* Pagination spacing */
+    }
+
+    /* Desktop-il height kurach koodi koottam */
+    @media (min-width: 992px) {
+        .pic {
+            height: 300px;
+        }
+      }
+  
